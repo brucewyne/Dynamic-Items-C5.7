@@ -3,7 +3,7 @@ defined('C5_EXECUTE') or die("Access Denied.");
 // LOAD FOR PAGE SELECTOR
 $pageSelector = Loader::helper('form/page_selector');
 
-// LOAD FOR REDACTOR
+// LOAD FOR REDACTOR & FILE SELECTOR
 $fp = FilePermissions::getGlobal();
 $tp = new TaskPermission(); ?>
 <style type="text/css">
