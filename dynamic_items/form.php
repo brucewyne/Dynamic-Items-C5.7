@@ -91,8 +91,7 @@ $tp = new TaskPermission(); ?>
 		            <input type="hidden" name="<?php echo $view->field('fID')?>[]" class="image-fID" value="<%=fID%>" />
 	            </div>
 	        </div>
-            <input class="item-sort" type="hidden" name="<?php echo $view->field('sort')?>[]" value="<%=sort%>"/>
-            
+                        
             <!-- PAGE SELECTOR --->
             <div class="form-group">
                 <label class="col-xs-3 control-label"><?=t('Select a Page')?></label>
@@ -100,6 +99,8 @@ $tp = new TaskPermission(); ?>
 					<?php $this->inc('elements/page_selector.php');?>
 				</div>
             </div>
+            
+            <input class="item-sort" type="hidden" name="<?php echo $view->field('sort')?>[]" value="<%=sort%>"/>
             
         </div>
     </div><!-- .item -->
