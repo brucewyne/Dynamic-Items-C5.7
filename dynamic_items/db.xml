@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btDynamicItems">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+        </field>
+        <field name="setting" type="X2"></field>
+    </table>
+    <table name="btDynamicItem">
+        <field name="id" type="I"><UNSIGNED/><key/><AUTOINCREMENT/></field>
+        <field name="bID" type="X2"></field>
+        <field name="title" type="X2"></field>
+        <field name="opt" type="X2"></field>
+        <field name="wysiwyg" type="X2"></field>
+        <field name="fID" type="X2"></field>
+        <field name="pageID" type="X2"></field>
+        <field name="sort" type="I"></field>
+    </table>
+</schema>
